@@ -100,7 +100,7 @@
     "stars": 10,
     "open_issues": 1,
     "license": null,
-    "stale_days": 16,
+    "stale_days": 17,
     "default_branch": "main",
     "scan": {
       "files": 23,

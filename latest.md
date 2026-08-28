@@ -5,7 +5,7 @@
 | Repo | Lang | LoC | TODOs | Vulns (crit/high) | README | LICENSE | CI | Last push |
 |---|---|--:|--:|--:|:-:|:-:|:-:|--:|
 | [anything](https://github.com/furyengi/anything) | HTML | 174 | 0 | - | yes | **no** | **no** | 16d ago |
-| [evnar](https://github.com/furyengi/evnar) | TypeScript | 813 | 0 | - | yes | **no** | **no** | 16d ago |
+| [evnar](https://github.com/furyengi/evnar) | TypeScript | 813 | 0 | - | yes | **no** | **no** | 17d ago |
 | [excuse-factory](https://github.com/furyengi/excuse-factory) | TypeScript | 749 | 0 | 0/15 | yes | **no** | **no** | 18d ago |
 | [freelance-portal](https://github.com/furyengi/freelance-portal) | TypeScript | 163 | 0 | 0/9 | yes | **no** | **no** | 195d ago |
 | [furyengi](https://github.com/furyengi/furyengi) | - | 0 | 0 | - | yes | **no** | **no** | 5d ago |
