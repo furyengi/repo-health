@@ -1,5 +1,39 @@
 [
   {
+    "name": "repo-health",
+    "url": "https://github.com/furyengi/repo-health",
+    "description": "",
+    "language": "JavaScript",
+    "stars": 0,
+    "open_issues": 0,
+    "license": null,
+    "stale_days": 0,
+    "default_branch": "main",
+    "scan": {
+      "files": 2,
+      "lines": 382,
+      "todos": 7,
+      "biggest": [
+        [
+          333,
+          "scripts/health.mjs"
+        ],
+        [
+          49,
+          ".github/workflows/health.yml"
+        ]
+      ]
+    },
+    "checks": {
+      "README": true,
+      "LICENSE": false,
+      ".gitignore": true,
+      "CI": true
+    },
+    "stacks": [],
+    "npm": null
+  },
+  {
     "name": "furyengi",
     "url": "https://github.com/furyengi/furyengi",
     "description": "",
@@ -175,9 +209,7 @@
     "stacks": [
       "npm"
     ],
-    "npm": {
-      "error": "could not resolve a lockfile"
-    }
+    "npm": {}
   },
   {
     "name": "anything",
@@ -278,7 +310,9 @@
       "npm"
     ],
     "npm": {
-      "error": "npm audit produced no parseable output"
+      "low": 1,
+      "moderate": 4,
+      "high": 15
     }
   },
   {
@@ -320,7 +354,9 @@
       "npm"
     ],
     "npm": {
-      "error": "npm audit produced no parseable output"
+      "low": 1,
+      "moderate": 1,
+      "high": 1
     }
   },
   {
@@ -498,7 +534,9 @@
       "npm"
     ],
     "npm": {
-      "error": "npm audit produced no parseable output"
+      "low": 1,
+      "moderate": 1,
+      "high": 9
     }
   },
   {

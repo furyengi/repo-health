@@ -1,40 +1,42 @@
 # Repo health - 2026-08-28
 
-15 non-fork repos on [@furyengi](https://github.com/furyengi).
+16 non-fork repos on [@furyengi](https://github.com/furyengi).
 
 | Repo | Lang | LoC | TODOs | Vulns (crit/high) | README | LICENSE | CI | Last push |
 |---|---|--:|--:|--:|:-:|:-:|:-:|--:|
 | [anything](https://github.com/furyengi/anything) | HTML | 174 | 0 | - | yes | **no** | **no** | 16d ago |
 | [evnar](https://github.com/furyengi/evnar) | TypeScript | 813 | 0 | - | yes | **no** | **no** | 16d ago |
-| [excuse-factory](https://github.com/furyengi/excuse-factory) | TypeScript | 749 | 0 | - | yes | **no** | **no** | 18d ago |
-| [freelance-portal](https://github.com/furyengi/freelance-portal) | TypeScript | 163 | 0 | - | yes | **no** | **no** | 195d ago |
+| [excuse-factory](https://github.com/furyengi/excuse-factory) | TypeScript | 749 | 0 | 0/15 | yes | **no** | **no** | 18d ago |
+| [freelance-portal](https://github.com/furyengi/freelance-portal) | TypeScript | 163 | 0 | 0/9 | yes | **no** | **no** | 195d ago |
 | [furyengi](https://github.com/furyengi/furyengi) | - | 0 | 0 | - | yes | **no** | **no** | 5d ago |
 | [furyengi.github.io](https://github.com/furyengi/furyengi.github.io) | HTML | 93 | 0 | - | yes | **no** | **no** | 7d ago |
 | [gesturesend](https://github.com/furyengi/gesturesend) | C++ | 878 | 0 | - | yes | **no** | **no** | 190d ago |
 | [maze-genetic-algorithm](https://github.com/furyengi/maze-genetic-algorithm) | HTML | 1015 | 0 | - | yes | **no** | **no** | 21d ago |
-| [runxr](https://github.com/furyengi/runxr) | HTML | 1862 | 0 | - | yes | **no** | **no** | 21d ago |
+| [repo-health](https://github.com/furyengi/repo-health) | JavaScript | 382 | 7 | - | yes | **no** | yes | 0d ago |
+| [runxr](https://github.com/furyengi/runxr) | HTML | 1862 | 0 | 0/1 | yes | **no** | **no** | 21d ago |
 | [runxr-test](https://github.com/furyengi/runxr-test) | - | 6 | 0 | - | yes | **no** | **no** | 188d ago |
 | [scalable-api](https://github.com/furyengi/scalable-api) | Python | 1130 | 0 | - | yes | **no** | yes | 18d ago |
 | [stackprint](https://github.com/furyengi/stackprint) | HTML | 1 | 0 | - | yes | **no** | **no** | 18d ago |
-| [webhook-billing-notifications](https://github.com/furyengi/webhook-billing-notifications) | HTML | 1017 | 0 | - | yes | **no** | **no** | 15d ago |
+| [webhook-billing-notifications](https://github.com/furyengi/webhook-billing-notifications) | HTML | 1017 | 0 | 0/0 | yes | **no** | **no** | 15d ago |
 | [Will-Of-D](https://github.com/furyengi/Will-Of-D) | - | 1101 | 0 | - | **no** | **no** | **no** | 175d ago |
 | [Zephyrus](https://github.com/furyengi/Zephyrus) | - | 242442 | 12 | - | yes | yes | **no** | 248d ago |
 
 ## Needs attention
 
+- **freelance-portal** - 9 high npm vulns; no LICENSE/CI; untouched 195d
 - **evnar** - no LICENSE/CI; 1 open issue/PR
+- **excuse-factory** - 15 high npm vulns; no LICENSE/CI
+- **runxr** - 1 high npm vuln; no LICENSE/CI
 - **gesturesend** - no LICENSE/CI; untouched 190d
 - **runxr-test** - no LICENSE/CI; untouched 188d
-- **freelance-portal** - no LICENSE/CI; untouched 195d
 - **Zephyrus** - no CI; untouched 248d
+- **repo-health** - no LICENSE
 - **furyengi** - no LICENSE/CI
 - **furyengi.github.io** - no LICENSE/CI
 - **scalable-api** - no LICENSE
 - **webhook-billing-notifications** - no LICENSE/CI
 - **anything** - no LICENSE/CI
 - **stackprint** - no LICENSE/CI
-- **excuse-factory** - no LICENSE/CI
-- **runxr** - no LICENSE/CI
 - **maze-genetic-algorithm** - no LICENSE/CI
 - **Will-Of-D** - no README/LICENSE/CI
 
@@ -62,7 +64,7 @@
 - Stacks: npm
 - License: none - stars 0 - open issues/PRs 0
 - Longest files: `app/page.tsx` (166), `tests/rendered-html.test.mjs` (92), `app/chatgpt-auth.ts` (91)
-- npm audit: skipped (npm audit produced no parseable output)
+- npm audit: 1 low, 4 moderate, 15 high
 
 ### freelance-portal
 
@@ -70,7 +72,7 @@
 - Stacks: npm
 - License: none - stars 0 - open issues/PRs 0
 - Longest files: `app/page.tsx` (66), `app/layout.tsx` (35), `app/globals.css` (27)
-- npm audit: skipped (npm audit produced no parseable output)
+- npm audit: 1 low, 1 moderate, 9 high
 
 ### furyengi
 
@@ -100,6 +102,13 @@
 - License: none - stars 0 - open issues/PRs 0
 - Longest files: `index.html` (1015)
 
+### repo-health
+
+- 2 source files, 382 lines, 7 TODO/FIXME markers
+- Stacks: none detected
+- License: none - stars 0 - open issues/PRs 0
+- Longest files: `scripts/health.mjs` (333), `.github/workflows/health.yml` (49)
+
 ### runxr
 > ci/cd runner
 
@@ -107,7 +116,7 @@
 - Stacks: npm
 - License: none - stars 1 - open issues/PRs 0
 - Longest files: `runxr-landing.html` (642), `runxr-runner/runner/runner.py` (191), `runxr-runner/agent.py` (104)
-- npm audit: skipped (npm audit produced no parseable output)
+- npm audit: 1 low, 1 moderate, 1 high
 
 ### runxr-test
 
@@ -137,7 +146,7 @@
 - Stacks: npm
 - License: none - stars 0 - open issues/PRs 0
 - Longest files: `public/index.html` (542), `src/server.js` (155), `src/billing.js` (149)
-- npm audit: skipped (could not resolve a lockfile)
+- npm audit: 
 
 ### Will-Of-D
 
