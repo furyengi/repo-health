@@ -1,0 +1,48 @@
+name: repo health
+
+on:
+  schedule:
+    # 06:15 UTC daily. Off the hour: GitHub throttles cron at :00.
+    - cron: "15 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-health
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run audit
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TARGET_OWNER: ${{ github.repository_owner }}
+        run: node scripts/health.mjs
+
+      - name: Commit report if it changed
+        env:
+          # Authored as the account owner so the commit lands on their
+          # contribution graph rather than github-actions[bot]'s.
+          GIT_AUTHOR_NAME: furyengi
+          GIT_AUTHOR_EMAIL: 176532918+furyengi@users.noreply.github.com
+          GIT_COMMITTER_NAME: furyengi
+          GIT_COMMITTER_EMAIL: 176532918+furyengi@users.noreply.github.com
+        run: |
+          git add -A reports latest.md
+          if git diff --cached --quiet; then
+            echo "No change in the audit output - nothing to commit."
+            exit 0
+          fi
+          git commit -m "health: $(date -u +%Y-%m-%d) audit"
+          git push
