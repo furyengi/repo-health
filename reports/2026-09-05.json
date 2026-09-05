@@ -1,0 +1,704 @@
+[
+  {
+    "name": "folio",
+    "url": "https://github.com/furyengi/folio",
+    "description": "A private, open-source PDF workspace.",
+    "language": "TypeScript",
+    "stars": 0,
+    "open_issues": 0,
+    "license": "MIT",
+    "stale_days": 0,
+    "default_branch": "main",
+    "scan": {
+      "files": 81,
+      "lines": 11560,
+      "todos": 0,
+      "biggest": [
+        [
+          1300,
+          "app/globals.css"
+        ],
+        [
+          874,
+          "components/editor/document-editor.tsx"
+        ],
+        [
+          724,
+          "components/ui/sidebar.tsx"
+        ]
+      ]
+    },
+    "checks": {
+      "README": true,
+      "LICENSE": true,
+      ".gitignore": true,
+      "CI": false
+    },
+    "stacks": [
+      "npm"
+    ],
+    "npm": {
+      "low": 1,
+      "moderate": 2,
+      "high": 4
+    }
+  },
+  {
+    "name": "repo-health",
+    "url": "https://github.com/furyengi/repo-health",
+    "description": "",
+    "language": "JavaScript",
+    "stars": 0,
+    "open_issues": 0,
+    "license": null,
+    "stale_days": 0,
+    "default_branch": "main",
+    "scan": {
+      "files": 2,
+      "lines": 382,
+      "todos": 7,
+      "biggest": [
+        [
+          333,
+          "scripts/health.mjs"
+        ],
+        [
+          49,
+          ".github/workflows/health.yml"
+        ]
+      ]
+    },
+    "checks": {
+      "README": true,
+      "LICENSE": false,
+      ".gitignore": true,
+      "CI": true
+    },
+    "stacks": [],
+    "npm": null
+  },
+  {
+    "name": "furyengi.github.io",
+    "url": "https://github.com/furyengi/furyengi.github.io",
+    "description": "",
+    "language": "HTML",
+    "stars": 0,
+    "open_issues": 0,
+    "license": null,
+    "stale_days": 3,
+    "default_branch": "main",
+    "scan": {
+      "files": 2,
+      "lines": 323,
+      "todos": 0,
+      "biggest": [
+        [
+          322,
+          "index.html"
+        ],
+        [
+          1,
+          "stackprint/index.html"
+        ]
+      ]
+    },
+    "checks": {
+      "README": true,
+      "LICENSE": false,
+      ".gitignore": false,
+      "CI": false
+    },
+    "stacks": [],
+    "npm": null
+  },
+  {
+    "name": "furyengi",
+    "url": "https://github.com/furyengi/furyengi",
+    "description": "",
+    "language": "-",
+    "stars": 0,
+    "open_issues": 0,
+    "license": null,
+    "stale_days": 3,
+    "default_branch": "main",
+    "scan": {
+      "files": 0,
+      "lines": 0,
+      "todos": 0,
+      "biggest": []
+    },
+    "checks": {
+      "README": true,
+      "LICENSE": false,
+      ".gitignore": false,
+      "CI": false
+    },
+    "stacks": [],
+    "npm": null
+  },
+  {
+    "name": "pyre",
+    "url": "https://github.com/furyengi/pyre",
+    "description": "A log-structured, crash-safe key-value storage engine written from scratch in Rust.",
+    "language": "Rust",
+    "stars": 0,
+    "open_issues": 0,
+    "license": "MIT",
+    "stale_days": 6,
+    "default_branch": "main",
+    "scan": {
+      "files": 13,
+      "lines": 2714,
+      "todos": 0,
+      "biggest": [
+        [
+          517,
+          "src/store.rs"
+        ],
+        [
+          495,
+          "tests/compaction.rs"
+        ],
+        [
+          393,
+          "tests/crash_simulation.rs"
+        ]
+      ]
+    },
+    "checks": {
+      "README": true,
+      "LICENSE": true,
+      ".gitignore": true,
+      "CI": true
+    },
+    "stacks": [
+      "cargo"
+    ],
+    "npm": null
+  },
+  {
+    "name": "ignis",
+    "url": "https://github.com/furyengi/ignis",
+    "description": "A self-hosted serverless runtime. Firecracker microVMs, a LIFO warm pool, and cold starts you can actually measure.",
+    "language": "TypeScript",
+    "stars": 0,
+    "open_issues": 0,
+    "license": "MIT",
+    "stale_days": 6,
+    "default_branch": "main",
+    "scan": {
+      "files": 28,
+      "lines": 5073,
+      "todos": 0,
+      "biggest": [
+        [
+          646,
+          "src/backends/firecracker.ts"
+        ],
+        [
+          390,
+          "src/registry/postgres.ts"
+        ],
+        [
+          379,
+          "src/pool.ts"
+        ]
+      ]
+    },
+    "checks": {
+      "README": true,
+      "LICENSE": true,
+      ".gitignore": true,
+      "CI": true
+    },
+    "stacks": [
+      "npm"
+    ],
+    "npm": {}
+  },
+  {
+    "name": "evnar",
+    "url": "https://github.com/furyengi/evnar",
+    "description": "Self-hosted secrets manager — AES-256-GCM, multi-environment, CLI",
+    "language": "TypeScript",
+    "stars": 10,
+    "open_issues": 1,
+    "license": null,
+    "stale_days": 24,
+    "default_branch": "main",
+    "scan": {
+      "files": 23,
+      "lines": 813,
+      "todos": 0,
+      "biggest": [
+        [
+          170,
+          "apps/web/components/marketing/ProductPreview.tsx"
+        ],
+        [
+          139,
+          "apps/web/components/ui/sheet.tsx"
+        ],
+        [
+          130,
+          "apps/web/app/globals.css"
+        ]
+      ]
+    },
+    "checks": {
+      "README": true,
+      "LICENSE": false,
+      ".gitignore": false,
+      "CI": false
+    },
+    "stacks": [],
+    "npm": null
+  },
+  {
+    "name": "scalable-api",
+    "url": "https://github.com/furyengi/scalable-api",
+    "description": "",
+    "language": "Python",
+    "stars": 0,
+    "open_issues": 0,
+    "license": null,
+    "stale_days": 26,
+    "default_branch": "main",
+    "scan": {
+      "files": 42,
+      "lines": 1130,
+      "todos": 0,
+      "biggest": [
+        [
+          92,
+          "app/api/v1/endpoints/tasks.py"
+        ],
+        [
+          84,
+          "docker-compose.prod.yml"
+        ],
+        [
+          76,
+          "alembic/versions/20260217_001_initial_schema.py"
+        ]
+      ]
+    },
+    "checks": {
+      "README": true,
+      "LICENSE": false,
+      ".gitignore": true,
+      "CI": true
+    },
+    "stacks": [
+      "pip",
+      "python"
+    ],
+    "npm": null
+  },
+  {
+    "name": "webhook-billing-notifications",
+    "url": "https://github.com/furyengi/webhook-billing-notifications",
+    "description": "",
+    "language": "HTML",
+    "stars": 0,
+    "open_issues": 0,
+    "license": null,
+    "stale_days": 23,
+    "default_branch": "main",
+    "scan": {
+      "files": 8,
+      "lines": 1017,
+      "todos": 0,
+      "biggest": [
+        [
+          542,
+          "public/index.html"
+        ],
+        [
+          155,
+          "src/server.js"
+        ],
+        [
+          149,
+          "src/billing.js"
+        ]
+      ]
+    },
+    "checks": {
+      "README": true,
+      "LICENSE": false,
+      ".gitignore": false,
+      "CI": false
+    },
+    "stacks": [
+      "npm"
+    ],
+    "npm": {}
+  },
+  {
+    "name": "anything",
+    "url": "https://github.com/furyengi/anything",
+    "description": "",
+    "language": "HTML",
+    "stars": 0,
+    "open_issues": 0,
+    "license": null,
+    "stale_days": 24,
+    "default_branch": "master",
+    "scan": {
+      "files": 1,
+      "lines": 174,
+      "todos": 0,
+      "biggest": [
+        [
+          174,
+          "anything.html"
+        ]
+      ]
+    },
+    "checks": {
+      "README": true,
+      "LICENSE": false,
+      ".gitignore": false,
+      "CI": false
+    },
+    "stacks": [],
+    "npm": null
+  },
+  {
+    "name": "stackprint",
+    "url": "https://github.com/furyengi/stackprint",
+    "description": "Privacy-first stack trace formatter that runs entirely in the browser.",
+    "language": "HTML",
+    "stars": 0,
+    "open_issues": 0,
+    "license": null,
+    "stale_days": 26,
+    "default_branch": "main",
+    "scan": {
+      "files": 1,
+      "lines": 1,
+      "todos": 0,
+      "biggest": [
+        [
+          1,
+          "index.html"
+        ]
+      ]
+    },
+    "checks": {
+      "README": true,
+      "LICENSE": false,
+      ".gitignore": false,
+      "CI": false
+    },
+    "stacks": [],
+    "npm": null
+  },
+  {
+    "name": "excuse-factory",
+    "url": "https://github.com/furyengi/excuse-factory",
+    "description": "A deeply unserious excuse generator",
+    "language": "TypeScript",
+    "stars": 0,
+    "open_issues": 0,
+    "license": null,
+    "stale_days": 26,
+    "default_branch": "main",
+    "scan": {
+      "files": 17,
+      "lines": 749,
+      "todos": 0,
+      "biggest": [
+        [
+          166,
+          "app/page.tsx"
+        ],
+        [
+          92,
+          "tests/rendered-html.test.mjs"
+        ],
+        [
+          91,
+          "app/chatgpt-auth.ts"
+        ]
+      ]
+    },
+    "checks": {
+      "README": true,
+      "LICENSE": false,
+      ".gitignore": true,
+      "CI": false
+    },
+    "stacks": [
+      "npm"
+    ],
+    "npm": {
+      "low": 1,
+      "moderate": 5,
+      "high": 16
+    }
+  },
+  {
+    "name": "runxr",
+    "url": "https://github.com/furyengi/runxr",
+    "description": "ci/cd runner",
+    "language": "HTML",
+    "stars": 1,
+    "open_issues": 0,
+    "license": null,
+    "stale_days": 29,
+    "default_branch": "main",
+    "scan": {
+      "files": 32,
+      "lines": 1862,
+      "todos": 0,
+      "biggest": [
+        [
+          642,
+          "runxr-landing.html"
+        ],
+        [
+          191,
+          "runxr-runner/runner/runner.py"
+        ],
+        [
+          104,
+          "runxr-runner/agent.py"
+        ]
+      ]
+    },
+    "checks": {
+      "README": true,
+      "LICENSE": false,
+      ".gitignore": true,
+      "CI": false
+    },
+    "stacks": [
+      "npm"
+    ],
+    "npm": {
+      "low": 1,
+      "moderate": 1,
+      "high": 1
+    }
+  },
+  {
+    "name": "maze-genetic-algorithm",
+    "url": "https://github.com/furyengi/maze-genetic-algorithm",
+    "description": "",
+    "language": "HTML",
+    "stars": 0,
+    "open_issues": 0,
+    "license": null,
+    "stale_days": 29,
+    "default_branch": "main",
+    "scan": {
+      "files": 1,
+      "lines": 1015,
+      "todos": 0,
+      "biggest": [
+        [
+          1015,
+          "index.html"
+        ]
+      ]
+    },
+    "checks": {
+      "README": true,
+      "LICENSE": false,
+      ".gitignore": false,
+      "CI": false
+    },
+    "stacks": [],
+    "npm": null
+  },
+  {
+    "name": "gesturesend",
+    "url": "https://github.com/furyengi/gesturesend",
+    "description": "u've seen those huawei's gesture file transfer righttt, yhh sm like that",
+    "language": "C++",
+    "stars": 2,
+    "open_issues": 0,
+    "license": null,
+    "stale_days": 198,
+    "default_branch": "main",
+    "scan": {
+      "files": 15,
+      "lines": 878,
+      "todos": 0,
+      "biggest": [
+        [
+          289,
+          "windows/runner/win32_window.cpp"
+        ],
+        [
+          103,
+          "windows/runner/win32_window.h"
+        ],
+        [
+          91,
+          "pubspec.yaml"
+        ]
+      ]
+    },
+    "checks": {
+      "README": true,
+      "LICENSE": false,
+      ".gitignore": true,
+      "CI": false
+    },
+    "stacks": [],
+    "npm": null
+  },
+  {
+    "name": "Will-Of-D",
+    "url": "https://github.com/furyengi/Will-Of-D",
+    "description": "",
+    "language": "-",
+    "stars": 0,
+    "open_issues": 0,
+    "license": null,
+    "stale_days": 182,
+    "default_branch": "main",
+    "scan": {
+      "files": 3,
+      "lines": 1101,
+      "todos": 0,
+      "biggest": [
+        [
+          956,
+          "src/output.css"
+        ],
+        [
+          131,
+          "index.html"
+        ],
+        [
+          14,
+          "src/input.css"
+        ]
+      ]
+    },
+    "checks": {
+      "README": false,
+      "LICENSE": false,
+      ".gitignore": false,
+      "CI": false
+    },
+    "stacks": [],
+    "npm": null
+  },
+  {
+    "name": "runxr-test",
+    "url": "https://github.com/furyengi/runxr-test",
+    "description": "",
+    "language": "-",
+    "stars": 0,
+    "open_issues": 0,
+    "license": null,
+    "stale_days": 195,
+    "default_branch": "main",
+    "scan": {
+      "files": 1,
+      "lines": 6,
+      "todos": 0,
+      "biggest": [
+        [
+          6,
+          "runxr.yml"
+        ]
+      ]
+    },
+    "checks": {
+      "README": true,
+      "LICENSE": false,
+      ".gitignore": false,
+      "CI": false
+    },
+    "stacks": [],
+    "npm": null
+  },
+  {
+    "name": "freelance-portal",
+    "url": "https://github.com/furyengi/freelance-portal",
+    "description": "",
+    "language": "TypeScript",
+    "stars": 0,
+    "open_issues": 0,
+    "license": null,
+    "stale_days": 203,
+    "default_branch": "main",
+    "scan": {
+      "files": 6,
+      "lines": 163,
+      "todos": 0,
+      "biggest": [
+        [
+          66,
+          "app/page.tsx"
+        ],
+        [
+          35,
+          "app/layout.tsx"
+        ],
+        [
+          27,
+          "app/globals.css"
+        ]
+      ]
+    },
+    "checks": {
+      "README": true,
+      "LICENSE": false,
+      ".gitignore": true,
+      "CI": false
+    },
+    "stacks": [
+      "npm"
+    ],
+    "npm": {
+      "low": 1,
+      "moderate": 2,
+      "high": 10
+    }
+  },
+  {
+    "name": "Zephyrus",
+    "url": "https://github.com/furyengi/Zephyrus",
+    "description": "An opengl-es game engine ",
+    "language": "-",
+    "stars": 0,
+    "open_issues": 0,
+    "license": "MIT",
+    "stale_days": 255,
+    "default_branch": "main",
+    "scan": {
+      "files": 1364,
+      "lines": 242442,
+      "todos": 12,
+      "biggest": [
+        [
+          8956,
+          "external/include/glm/doc/api/a00304.html"
+        ],
+        [
+          7946,
+          "external/include/glm/doc/api/a00364.html"
+        ],
+        [
+          2872,
+          "external/include/glm/doc/api/a00187_source.html"
+        ]
+      ]
+    },
+    "checks": {
+      "README": true,
+      "LICENSE": true,
+      ".gitignore": true,
+      "CI": false
+    },
+    "stacks": [],
+    "npm": null
+  }
+]
