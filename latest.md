@@ -1,42 +1,42 @@
-# Repo health - 2026-10-30
+# Repo health - 2026-10-31
 
 29 non-fork repos on [@furyengi](https://github.com/furyengi).
 
 | Repo | Lang | LoC | TODOs | Vulns (crit/high) | README | LICENSE | CI | Last push |
 |---|---|--:|--:|--:|:-:|:-:|:-:|--:|
-| [anything](https://github.com/furyengi/anything) | HTML | 174 | 0 | - | yes | **no** | **no** | 79d ago |
-| [biogate-pharma](https://github.com/furyengi/biogate-pharma) | TypeScript | 4043 | 0 | 1/7 | yes | **no** | **no** | 16d ago |
-| [chessbot-lab](https://github.com/furyengi/chessbot-lab) | TypeScript | 8674 | 0 | 1/15 | yes | **no** | **no** | 44d ago |
-| [coldbox-vault](https://github.com/furyengi/coldbox-vault) | - | 0 | 0 | - | **no** | **no** | **no** | 44d ago |
-| [evnar](https://github.com/furyengi/evnar) | TypeScript | 813 | 0 | - | yes | **no** | **no** | 79d ago |
-| [excuse-factory](https://github.com/furyengi/excuse-factory) | TypeScript | 749 | 0 | 0/18 | yes | **no** | **no** | 81d ago |
+| [anything](https://github.com/furyengi/anything) | HTML | 174 | 0 | - | yes | **no** | **no** | 80d ago |
+| [biogate-pharma](https://github.com/furyengi/biogate-pharma) | TypeScript | 4043 | 0 | 1/7 | yes | **no** | **no** | 17d ago |
+| [chessbot-lab](https://github.com/furyengi/chessbot-lab) | TypeScript | 8674 | 0 | 1/15 | yes | **no** | **no** | 45d ago |
+| [coldbox-vault](https://github.com/furyengi/coldbox-vault) | - | 0 | 0 | - | **no** | **no** | **no** | 45d ago |
+| [evnar](https://github.com/furyengi/evnar) | TypeScript | 813 | 0 | - | yes | **no** | **no** | 80d ago |
+| [excuse-factory](https://github.com/furyengi/excuse-factory) | TypeScript | 749 | 0 | 0/18 | yes | **no** | **no** | 82d ago |
 | [folio](https://github.com/furyengi/folio) | TypeScript | 11506 | 0 | 4/9 | yes | yes | **no** | 42d ago |
-| [freelance-portal](https://github.com/furyengi/freelance-portal) | TypeScript | 163 | 0 | 1/11 | yes | **no** | **no** | 258d ago |
-| [furyengi](https://github.com/furyengi/furyengi) | - | 0 | 0 | - | yes | **no** | **no** | 58d ago |
-| [furyengi-is-a-dev-redirect](https://github.com/furyengi/furyengi-is-a-dev-redirect) | HTML | 73 | 0 | - | yes | **no** | **no** | 28d ago |
-| [furyengi.github.io](https://github.com/furyengi/furyengi.github.io) | HTML | 5540 | 0 | - | yes | **no** | **no** | 9d ago |
-| [gesturesend](https://github.com/furyengi/gesturesend) | C++ | 878 | 0 | - | yes | **no** | **no** | 253d ago |
-| [ignis](https://github.com/furyengi/ignis) | TypeScript | 5073 | 0 | 0/0 | yes | yes | yes | 61d ago |
-| [knockback](https://github.com/furyengi/knockback) | JavaScript | 10180 | 0 | 0/0 | yes | **no** | **no** | 16d ago |
-| [marigold-player](https://github.com/furyengi/marigold-player) | JavaScript | 5705 | 0 | 0/2 | yes | yes | yes | 16d ago |
-| [maze-genetic-algorithm](https://github.com/furyengi/maze-genetic-algorithm) | HTML | 1015 | 0 | - | yes | **no** | **no** | 84d ago |
-| [pyre](https://github.com/furyengi/pyre) | Rust | 2714 | 0 | - | yes | yes | yes | 61d ago |
+| [freelance-portal](https://github.com/furyengi/freelance-portal) | TypeScript | 163 | 0 | 1/11 | yes | **no** | **no** | 259d ago |
+| [furyengi](https://github.com/furyengi/furyengi) | - | 0 | 0 | - | yes | **no** | **no** | 59d ago |
+| [furyengi-is-a-dev-redirect](https://github.com/furyengi/furyengi-is-a-dev-redirect) | HTML | 73 | 0 | - | yes | **no** | **no** | 29d ago |
+| [furyengi.github.io](https://github.com/furyengi/furyengi.github.io) | HTML | 5540 | 0 | - | yes | **no** | **no** | 10d ago |
+| [gesturesend](https://github.com/furyengi/gesturesend) | C++ | 878 | 0 | - | yes | **no** | **no** | 254d ago |
+| [ignis](https://github.com/furyengi/ignis) | TypeScript | 5073 | 0 | 0/0 | yes | yes | yes | 62d ago |
+| [knockback](https://github.com/furyengi/knockback) | JavaScript | 10180 | 0 | 0/0 | yes | **no** | **no** | 17d ago |
+| [marigold-player](https://github.com/furyengi/marigold-player) | JavaScript | 5705 | 0 | 0/2 | yes | yes | yes | 17d ago |
+| [maze-genetic-algorithm](https://github.com/furyengi/maze-genetic-algorithm) | HTML | 1015 | 0 | - | yes | **no** | **no** | 85d ago |
+| [pyre](https://github.com/furyengi/pyre) | Rust | 2714 | 0 | - | yes | yes | yes | 62d ago |
 | [repo-health](https://github.com/furyengi/repo-health) | JavaScript | 382 | 7 | - | yes | **no** | yes | 0d ago |
-| [runxr](https://github.com/furyengi/runxr) | HTML | 1862 | 0 | 1/2 | yes | **no** | **no** | 84d ago |
-| [runxr-test](https://github.com/furyengi/runxr-test) | - | 6 | 0 | - | yes | **no** | **no** | 251d ago |
-| [scalable-api](https://github.com/furyengi/scalable-api) | Python | 1130 | 0 | - | yes | **no** | yes | 81d ago |
-| [semesta](https://github.com/furyengi/semesta) | - | 0 | 0 | - | yes | **no** | **no** | 7d ago |
-| [simulation](https://github.com/furyengi/simulation) | TypeScript | 13198 | 0 | 1/2 | yes | yes | yes | 29d ago |
-| [stackprint](https://github.com/furyengi/stackprint) | HTML | 1 | 0 | - | yes | **no** | **no** | 81d ago |
-| [visual-builder](https://github.com/furyengi/visual-builder) | TypeScript | 33339 | 0 | 1/13 | yes | **no** | yes | 34d ago |
-| [webhook-billing-notifications](https://github.com/furyengi/webhook-billing-notifications) | HTML | 1017 | 0 | 0/0 | yes | **no** | **no** | 78d ago |
-| [where-to-watch](https://github.com/furyengi/where-to-watch) | HTML | 126 | 0 | - | yes | **no** | **no** | 44d ago |
-| [Will-Of-D](https://github.com/furyengi/Will-Of-D) | - | 1101 | 0 | - | **no** | **no** | **no** | 237d ago |
-| [Zephyrus](https://github.com/furyengi/Zephyrus) | - | 242442 | 12 | - | yes | yes | **no** | 310d ago |
+| [runxr](https://github.com/furyengi/runxr) | HTML | 1862 | 0 | 1/2 | yes | **no** | **no** | 85d ago |
+| [runxr-test](https://github.com/furyengi/runxr-test) | - | 6 | 0 | - | yes | **no** | **no** | 252d ago |
+| [scalable-api](https://github.com/furyengi/scalable-api) | Python | 1130 | 0 | - | yes | **no** | yes | 82d ago |
+| [semesta](https://github.com/furyengi/semesta) | - | 0 | 0 | - | yes | **no** | **no** | 8d ago |
+| [simulation](https://github.com/furyengi/simulation) | TypeScript | 13198 | 0 | 1/2 | yes | yes | yes | 30d ago |
+| [stackprint](https://github.com/furyengi/stackprint) | HTML | 1 | 0 | - | yes | **no** | **no** | 82d ago |
+| [visual-builder](https://github.com/furyengi/visual-builder) | TypeScript | 33339 | 0 | 1/13 | yes | **no** | yes | 35d ago |
+| [webhook-billing-notifications](https://github.com/furyengi/webhook-billing-notifications) | HTML | 1017 | 0 | 0/0 | yes | **no** | **no** | 79d ago |
+| [where-to-watch](https://github.com/furyengi/where-to-watch) | HTML | 126 | 0 | - | yes | **no** | **no** | 45d ago |
+| [Will-Of-D](https://github.com/furyengi/Will-Of-D) | - | 1101 | 0 | - | **no** | **no** | **no** | 238d ago |
+| [Zephyrus](https://github.com/furyengi/Zephyrus) | - | 242442 | 12 | - | yes | yes | **no** | 311d ago |
 
 ## Needs attention
 
-- **freelance-portal** - 1 critical npm vuln; 11 high npm vulns; no LICENSE/CI; untouched 258d
+- **freelance-portal** - 1 critical npm vuln; 11 high npm vulns; no LICENSE/CI; untouched 259d
 - **biogate-pharma** - 1 critical npm vuln; 7 high npm vulns; no LICENSE/CI
 - **visual-builder** - 1 critical npm vuln; 13 high npm vulns; no LICENSE
 - **folio** - 4 critical npm vulns; 9 high npm vulns; no CI
@@ -45,10 +45,10 @@
 - **simulation** - 1 critical npm vuln; 2 high npm vulns
 - **evnar** - no LICENSE/CI; 1 open issue/PR
 - **excuse-factory** - 18 high npm vulns; no LICENSE/CI
-- **gesturesend** - no LICENSE/CI; untouched 253d
-- **Will-Of-D** - no README/LICENSE/CI; untouched 237d
-- **runxr-test** - no LICENSE/CI; untouched 251d
-- **Zephyrus** - no CI; untouched 310d
+- **gesturesend** - no LICENSE/CI; untouched 254d
+- **Will-Of-D** - no README/LICENSE/CI; untouched 238d
+- **runxr-test** - no LICENSE/CI; untouched 252d
+- **Zephyrus** - no CI; untouched 311d
 - **repo-health** - no LICENSE
 - **furyengi.github.io** - no LICENSE/CI
 - **marigold-player** - 2 high npm vulns
@@ -79,7 +79,7 @@
 - Stacks: npm
 - License: none - stars 0 - open issues/PRs 0
 - Longest files: `app/checkout/CheckoutClient.tsx` (305), `lib/cart-context.tsx` (183), `app/shop/[slug]/page.tsx` (181)
-- npm audit: 1 moderate, 7 high, 1 critical
+- npm audit: 17 moderate, 7 high, 1 critical
 
 ### chessbot-lab
 > Teach your chessbot how you think.
@@ -88,7 +88,7 @@
 - Stacks: npm
 - License: none - stars 0 - open issues/PRs 0
 - Longest files: `components/ui/sidebar.tsx` (724), `components/ui/chart.tsx` (378), `components/ui/combobox.tsx` (311)
-- npm audit: 1 low, 9 moderate, 15 high, 1 critical
+- npm audit: 1 low, 25 moderate, 15 high, 1 critical
 
 ### coldbox-vault
 
@@ -111,7 +111,7 @@
 - Stacks: npm
 - License: none - stars 0 - open issues/PRs 0
 - Longest files: `app/page.tsx` (166), `tests/rendered-html.test.mjs` (92), `app/chatgpt-auth.ts` (91)
-- npm audit: 1 low, 8 moderate, 18 high
+- npm audit: 1 low, 21 moderate, 18 high
 
 ### folio
 > A private, open-source PDF workspace.
@@ -120,7 +120,7 @@
 - Stacks: npm
 - License: MIT - stars 0 - open issues/PRs 0
 - Longest files: `app/globals.css` (1300), `components/editor/document-editor.tsx` (874), `components/ui/sidebar.tsx` (724)
-- npm audit: 1 low, 5 moderate, 9 high, 4 critical
+- npm audit: 1 low, 8 moderate, 9 high, 4 critical
 
 ### freelance-portal
 
@@ -183,7 +183,7 @@
 - Stacks: npm
 - License: MIT - stars 0 - open issues/PRs 0
 - Longest files: `src/js/player.js` (662), `src/js/views.js` (440), `main.js` (386)
-- npm audit: 1 moderate, 2 high
+- npm audit: 16 moderate, 2 high
 
 ### maze-genetic-algorithm
 
@@ -243,7 +243,7 @@
 - Stacks: npm
 - License: Apache-2.0 - stars 0 - open issues/PRs 0
 - Longest files: `packages/environment/src/engine/environment.ts` (806), `apps/web/src/main.ts` (528), `apps/web/src/scene.ts` (495)
-- npm audit: 1 low, 1 moderate, 2 high, 1 critical
+- npm audit: 1 low, 15 moderate, 2 high, 1 critical
 
 ### stackprint
 > Privacy-first stack trace formatter that runs entirely in the browser.
@@ -260,7 +260,7 @@
 - Stacks: npm
 - License: none - stars 0 - open issues/PRs 0
 - Longest files: `pnpm-lock.yaml` (10227), `styles/components/primitives.css` (737), `components/ui/sidebar.tsx` (724)
-- npm audit: 7 moderate, 13 high, 1 critical
+- npm audit: 23 moderate, 13 high, 1 critical
 
 ### webhook-billing-notifications
 
